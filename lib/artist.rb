@@ -22,6 +22,11 @@ class Artist
      @@song_count += 1
   end
 
+# songs method should be looking 
+# into every song that we know of, 
+# and finding the ones that have this 
+# same artist.
+
   def songs
     Song.all.select {|song| song.artist == self}
   end
