@@ -15,4 +15,9 @@ class Post
   def author 
     @author
   end 
+  
+  def author_name 
+    if self.author.name 
+      author.name
+  end 
 end 
