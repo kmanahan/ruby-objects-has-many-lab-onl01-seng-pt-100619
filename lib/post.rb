@@ -12,6 +12,6 @@ class Post
   end 
   
   def author 
-    
+    self.author
   end 
 end 
