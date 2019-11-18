@@ -9,7 +9,7 @@ class Author
   end 
   
   def posts 
-  post
+  Post.all.self
   end 
   
   def add_post(post)
